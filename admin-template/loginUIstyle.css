@@ -1,0 +1,93 @@
+                            body {
+                                margin: 0;
+                                padding: 0;
+                                font-family: sans-serif;
+                                
+                            }
+                            .logo {
+                                margin-left: 180px;
+                                height: 620px;
+                                width: 620px;
+                                opacity: 0.6;
+                            }
+
+                            h1{
+                                color: #000;
+
+
+                            }
+
+
+                            .box{
+                            border-radius: 30px; 
+                            width: 300px;
+                            padding: 40px;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform : translate(-50%, -50%);
+                            text-align: center;
+
+                            }
+
+                            .box input[type="text"],.box input[type="password"]{
+                            border: 0;
+                            background: none;
+                            display: block;
+                            margin: 20px auto;
+                            text-align: "center";
+                            border: 2px solid #c06c84;
+                            padding: 14px 10px;
+                            width: 200px;
+                            outline: none;
+                            color: #000;
+                            border-radius: 30px;
+                            transition: 1s;
+
+                            }
+
+                            .box input[type="text"]:focus,.box input[type="password"]:focus{
+                                width: 280px;
+                                border-color:red;
+
+                            }
+
+                            .box input[type="text"]:hover{
+                                width: 280px;
+                                border-color:red;
+                            }
+                            .box input[type="password"]:hover{
+                                width: 280px;
+                                border-color:red;
+                            }
+
+                            .loginUI{
+                                border: 0;
+                            background: none;
+                            display: block;
+                            margin: 20px auto;
+                            text-align: "center";
+                            border: 2px solid #99b898;
+                            padding: 14px 10px;
+                            width: 200px;
+                            outline: none;
+                            color:#000;
+                            border-radius: 30px;
+                            transition: 0.3s;
+                            cursor: pointer;
+                            }
+
+                            .loginUI:hover{
+                                transition: 0.3s;
+                                color:#f67280 ;
+                                border: black solid ;
+                               
+
+                            }
+                            .signup:hover{
+                                transition: 2s;
+                                color:#f67280 ;
+
+                            }
+                            
+

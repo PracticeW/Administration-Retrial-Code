@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Northills College of Asia</title>
+
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="icon" type="image/png" href="assets/nca1.png"/>
+	<link rel="icon" type="image/png" href="assets/nca2.png"/>
+
+
+	
+	<!-- Import lib -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<!-- End import lib -->
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="overlay-scrollbar">
+	<!-- navbar -->
+	<div class="navbar">
+		<!-- nav left -->
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link">
+					<i class="fas fa-bars" onclick="collapseSidebar()"></i>
+				</a>
+			</li>
+			<li class="nav-item">
+				<img src="assets/logolight.png" alt="NCA logo" class="logo1 logo-light">
+				<img src="assets/logodark.png" alt="NCA logo" class="logo1 logo-dark">
+			</li>
+		</ul>
+		<!-- end nav left -->
+		<!-- form -->
+		<form class="navbar-search">
+			<input type="text" name="Search" class="navbar-search-input" placeholder="What you looking for...">
+			<i class="fas fa-search"></i>
+		</form>
+		<!-- end form -->
+		<!-- nav right -->
+		<ul class="navbar-nav nav-right">
+			<li class="nav-item mode">
+				<a class="nav-link" href="#" onclick="switchTheme()">
+					<i class="fas fa-moon dark-icon"></i>
+					<i class="fas fa-sun light-icon"></i>
+				</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link">
+					<i class="fas fa-bell dropdown-toggle" data-toggle="notification-menu"></i>
+					<span class="navbar-badge">23</span>
+				</a>
+				<ul id="notification-menu" class="dropdown-menu notification-menu">
+					<div class="dropdown-menu-header">
+						<span>
+							Notifications
+						</span>
+					</div>
+					<div class="dropdown-menu-content overlay-scrollbar scrollbar-hover">
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-gift"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										15/07/2020
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-tasks"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										15/07/2020
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-gift"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										15/07/2020
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-tasks"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										15/07/2020
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-gift"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										15/07/2020
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-tasks"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										15/07/2020
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-gift"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										15/07/2020
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-tasks"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										15/07/2020
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-gift"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										15/07/2020
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-tasks"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										15/07/2020
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-gift"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										15/07/2020
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-tasks"></i>
+								</div>
+								<span>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<br>
+									<span>
+										11/07/2021
+									</span>
+								</span>
+							</a>
+						</li>
+					</div>
+					<div class="dropdown-menu-footer">
+						<span>
+							View all notifications
+						</span>
+					</div>
+				</ul>
+			</li>
+			<li class="nav-item avt-wrapper">
+				<div class="avt dropdown">
+					<img src="assets/aws.jpg" alt="User image" class="dropdown-toggle" data-toggle="user-menu">
+					<ul id="user-menu" class="dropdown-menu">
+						<li  class="dropdown-menu-item">
+							<a  href="profile.html" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-user-tie"></i>
+								</div>
+								<span>Profile</span>
+							</a> 
+						</li>
+						<li class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-comment"></i>
+								</div>
+								<span>Messages</span>
+							</a>
+						</li>
+						<li  class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="far fa-credit-card"></i>
+								</div>
+								<span>Payments</span>
+							</a>
+						</li>
+						<li  class="dropdown-menu-item">
+							<a href="#" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-exclamation-circle">
+									
+								</i>
+								</div>
+								<span>School Information</span>
+							</a>
+						</li>
+						<li  class="dropdown-menu-item">
+							<a href="loginUI.html" class="dropdown-menu-link">
+								<div>
+									<i class="fas fa-sign-out-alt"></i>
+								</div>
+								<span>Logout</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<!-- end nav right -->
+	</div>
+	<!-- end navbar -->
+	<!-- sidebar -->
+	<div class="sidebar">
+		<ul class="sidebar-nav">
+			<li class="sidebar-nav-item">
+				<a href="home.html" class="sidebar-nav-link active">
+					<div>
+						<i class="fas fa-home"></i>
+					</div>
+					<span>
+						Home
+					</span>
+				</a>
+			</li>
+			<li class="sidebar-nav-item">
+				<a href="index.html" class="sidebar-nav-link">
+					<div>
+						<i class="fas fa-user-tie"></i>
+					</div>
+					<span>Admin</span>
+				</a>
+			</li>
+			<li  class="sidebar-nav-item">
+				<a href="#" class="sidebar-nav-link">
+					<div>
+						<i class="fas fa-graduation-cap"></i>
+					</div>
+					<span>Strands</span>
+					<img src="assets/dropdown1.png" alt="Dropdown image" class="dropdown-toggle1" data-toggle="dropdown-menu">
+				</a>
+			</li>
+			<li  class="sidebar-nav-item">
+				<a href="#" class="sidebar-nav-link">
+					<div>
+						<i class="fas fa-clipboard"></i>
+					</div>
+					<span>To Do</span>
+				</a>
+			</li>
+			<li  class="sidebar-nav-item">
+				<a href="#" class="sidebar-nav-link">
+					<div>
+						<i class="fas fa-tasks"></i>
+					</div>
+					<span>CheckList</span>
+				</a>
+			</li>
+			<li class="nav-item2">
+				<img src="assets/nca1.png" alt="NCA logo" class="logo1 logo-light">
+				<img src="assets/nca2.png" alt="NCA logo" class="logo1 logo-dark">
+			</li>
+			
+		
+		</ul>
+	</div>
+	<!-- end sidebar -->
+	<!-- main content -->
+	<div class="wrapper">
+		<div class="row">
+			<div class="col-3 col-m-6 col-sm-6">
+				<div class="counter bg-primary">
+					<p>
+						<i class="fas fa-tasks"></i>
+					</p>
+					<h3>10+</h3>
+					<p>To do</p>
+				</div>
+			</div>
+			<div class="col-3 col-m-6 col-sm-6">
+				<div class="counter bg-warning">
+					<p>
+						<i class="fas fa-wrench"></i>
+					</p>
+					<h3>20+</h3>
+					<p>Pending Tasks</p>
+				</div>
+			</div>
+			<div class="col-3 col-m-6 col-sm-6">
+				<div class="counter bg-success">
+					<p>
+						<i class="fas fa-check-circle"></i>
+					</p>
+					<h3>30+</h3>
+					<p>Completed Tasks</p>
+				</div>
+			</div>
+			<div class="col-3 col-m-6 col-sm-6">
+				<div class="counter bg-danger">
+					<p>
+						<i class="fas fa-exclamation-triangle"></i>
+					</p>
+					<h3>0+</h3>
+					<p>Failed</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-8 col-m-12 col-sm-12">
+				<div class="card">
+					<div class="card-header">
+						<h3>
+							Table
+						</h3>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+					<div class="card-content">
+						<table>
+							<thead>
+								<tr>
+									<th>Student #</th>
+									<th>Names</th>
+									<th>Status</th>
+									<th>Due date</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									
+									<td>Camille Loria</td>
+									<td>
+										<span class="dot">
+											<i class="bg-success"></i>
+											Completed
+										</span>
+									</td>
+									<td>17/07/2020</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									
+									<td>Riza Mae Cula</td>
+									<td>
+										<span class="dot">
+											<i class="bg-warning"></i>
+											Pending Tasks
+										</span>
+									</td>
+									<td>18/07/2020</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									
+									<td>Warren Badaguas</td>
+									<td>
+										<span class="dot">
+											<i class="bg-warning"></i>
+											Pending Tasks
+										</span>
+									</td>
+									<td>17/07/2020</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									
+									<td>Anthony Ramores</td>
+									<td>
+										<span class="dot">
+											<i class="bg-danger"></i>
+											Failed
+										</span>
+									</td>
+									<td>07/07/2020</td>
+								</tr>
+								<tr>
+									<td>5</td>
+									
+									<td>Aldwin John Balangat</td>
+									<td>
+										<span class="dot">
+											<i class="bg-primary"></i>
+											Ongoing
+										</span>
+									</td>
+									<td>20/08/2020</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									
+									<td>Denlee Villafe</td>
+									<td>
+										<span class="dot">
+											<i class="bg-primary"></i>
+											Ongoing
+										</span>
+									</td>
+									<td>20/08/2020</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-4 col-m-12 col-sm-12">
+				<div class="card">
+					<div class="card-header">
+						<h3>
+							Progress bar
+						</h3>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+					<div class="card-content">
+						<div class="progress-wrapper">
+							<p>
+								To do
+								<span class="float-right">10%</span>
+							</p>
+							<div class="progress">
+								<div class="bg-primary" style="width: 10%"></div>
+							</div>
+						</div>
+						<div class="progress-wrapper">
+							<p>
+								Pending Tasks
+								<span class="float-right">20%</span>
+							</p>
+							<div class="progress">
+								<div class="bg-warning" style="width:20%"></div>
+							</div>
+						</div>
+						<div class="progress-wrapper">
+							<p>
+								Completed
+								<span class="float-right">30%</span>
+							</p>
+							<div class="progress">
+								<div class="bg-success" style="width:30%"></div>
+							</div>
+						</div>
+						<div class="progress-wrapper">
+							<p>
+								Failed
+								<span class="float-right">0%</span>
+							</p>
+							<div class="progress">
+								<div class="bg-danger" style="width:0%"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-m-12 col-sm-12">
+				<div class="card">
+					<div class="card-header">
+						<h3>
+							Progress Chart
+						</h3>
+					</div>
+					<div class="card-content">
+						<canvas id="myChart"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end main content -->
+	<!-- import script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+	<script src="index.js"></script>
+	<!-- end import script -->
+</body>
+</html>

@@ -1,0 +1,15 @@
+* {
+    color: maroon;
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: darkgrey;
+
+}
+body {
+    height: 200px;
+    width: 200px;
+    position: center;
+    
+}
